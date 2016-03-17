@@ -10,7 +10,7 @@ fmt:
 	go fmt ./...
 
 deps:
-	go get github.com/mailhog/MailHog-Server
+	go get github.com/HokieTT/MailHog-Server
 	go get github.com/mailhog/MailHog-UI
 	cd ../MailHog-UI; make bindata
 	go get github.com/mailhog/http
